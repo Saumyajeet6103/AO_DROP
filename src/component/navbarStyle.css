@@ -1,0 +1,33 @@
+nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connect-image {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.connect-image:hover {
+    transform: scale(1.1); /* Optional: Scale the image on hover */
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+    margin-top: 10px;
+}
+
+body {
+    position: relative;
+}
+
+.connect-image {
+    position: absolute;
+    top: 25px; /* Adjust the top position */
+    right: 25px; /* Adjust the right position */
+}
